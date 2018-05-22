@@ -1,6 +1,6 @@
 {
-  "name": "ng-dragdrop-dragula",
-  "version": "1.0.0",
+  "name": "ng-dragdrop-dragula-2",
+  "version": "1.0.2",
   "description": "Everything, please refer [https://github.com/valor-software/ng2-dragula](https://github.com/valor-software/ng2-dragula)",
   "main": "index.js",
   "typings": "index.d.ts",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/trungliem87/ng-dragdrop-dragula#readme",
   "dependencies": {
-    "dragdrop-dragula": "^1.0.0"
+    "dragdrop-dragula-2": "^1.0.0"
   },
   "peerDependencies": {
     "@angular/core": "^2.3.1 || >=4.0.0",
