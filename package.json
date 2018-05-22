@@ -1,49 +1,22 @@
 {
-  "name": "ng2-dragula-base",
-  "private": true,
-  "version": "1.3.1",
+  "name": "ng-dragdrop-dragula",
+  "version": "1.0.0",
+  "description": "Everything, please refer [https://github.com/valor-software/ng2-dragula](https://github.com/valor-software/ng2-dragula)",
   "main": "index.js",
   "typings": "index.d.ts",
-  "description": "Simple drag and drop with dragula",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valor-software/ng2-dragula.git"
+    "url": "git+https://github.com/trungliem87/ng-dragdrop-dragula.git"
   },
-  "keywords": [
-    "angular",
-    "dragula",
-    "ng-dragula",
-    "angular2",
-    "ng2",
-    "angular2-dragula",
-    "ng2-dragula",
-    "ngx-dragula"
-  ],
-  "author": "NathanWalker <NathanWalker>",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/valor-software/ng2-dragula/issues"
+    "url": "https://github.com/trungliem87/ng-dragdrop-dragula/issues"
   },
-  "homepage": "https://github.com/valor-software/ng2-dragula#readme",
-  "scripts": {
-    "lite-server": "lite-server -c demo/bs-config.json",
-    "demo.serve": "run-s build link demo.build lite-server",
-    "demo.gh-pages": "run-s build demo.build demo.deploy",
-    "demo.build": "ng build -prod --aot",
-    "demo.deploy": "gh-pages -d demo/dist",
-    "link": "ngm link -p src --here",
-    "lint": "exit 0",
-    "disable-lint": "tslint \"**/*.ts\" -c tslint.json --fix --type-check -t prose -e \"node_modules/**\" -e \"dist/**\" -e \"temp/**\" -e \"scripts/docs/**\"",
-    "flow.changelog": "conventional-changelog -i CHANGELOG.md -s -p angular",
-    "flow.github-release": "conventional-github-releaser -p angular",
-    "build": "ngm build -p src --clean",
-    "build.watch": "ngm build -p src --watch --skip-bundles",
-    "start": "ng serve --aot",
-    "pretest": "run-s lint build link",
-    "test": "ng test -sr",
-    "test-coverage": "ng test -sr -cc",
-    "version": "npm run flow.changelog && git add -A"
-  },
+  "homepage": "https://github.com/trungliem87/ng-dragdrop-dragula#readme",
   "dependencies": {
     "dragdrop-dragula": "^1.0.0"
   },
