@@ -1,8 +1,9 @@
 {
-  "name": "ng-dragdrop-dragula",
+  "name": "ng-dragdrop-dragula-2",
   "version": "1.0.8",
-  "description": "![Logo](https://github.com/bevacqua/dragula/blob/master/resources/logo.png)",
+  "description": "Everything, please refer https://github.com/valor-software/ng2-dragula",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/trungliem87/ng-dragdrop-dragula/issues"
   },
-  "homepage": "https://github.com/trungliem87/ng-dragdrop-dragula#readme"
+  "homepage": "https://github.com/trungliem87/ng-dragdrop-dragula#readme",
+  "peerDependencies": {
+    "@angular/common": "^2.3.1 || >=4.0.0",
+    "@angular/compiler": "^2.3.1 || >=4.0.0",
+    "@angular/core": "^2.3.1 || >=4.0.0",
+    "@angular/forms": "^2.3.1 || >=4.0.0"
+  }
 }
